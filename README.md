@@ -44,9 +44,9 @@ npm start
 
 The project has a set of predefined folder structures:
 
-src/config: Contains configuration settings for the IMAP server.
-src/services: Contains the business logic for processing emails and saving files.
-src/utils: Utility functions used across the project.
+- src/config: Contains configuration settings for the IMAP server.
+- src/services: Contains the business logic for processing emails and saving files.
+- src/utils: Utility functions used across the project.
 
 ### Running the tests
 
