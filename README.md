@@ -20,8 +20,8 @@ A step by step series of examples that tell you how to get a development environ
 #### Clone the repository to your local machine:
 
 ```bash
+mkdir your-project-name && cd your-project-name
 git clone https://github.com/RoiS3R/PrintPi.git
-cd your-project-name
 npm install
 ```
 
