@@ -65,3 +65,4 @@ Imap - An IMAP client library for Node.js.
 Mailparser - For parsing the emails.
 
 ### License
+MIT License
