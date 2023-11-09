@@ -17,7 +17,7 @@ Before running the project, you will need:
 
 A step by step series of examples that tell you how to get a development environment running.
 
-1. Clone the repository to your local machine:
+#### Clone the repository to your local machine:
 
 ```bash
 git clone https://yourrepositorylink.com/your-project-name.git
@@ -25,16 +25,18 @@ cd your-project-name
 npm install
 ```
 
-### Set up your environment variables by renaming the .env.example file to .env and filling in the details:
+#### Set up your environment variables by renaming the .env.example file to .env and filling in the details:
 
+```bash
 SMTP_USER=your_email_username
 SMTP_PASS=your_email_password
 SMTP_HOST=your_email_imap_host
 SMTP_PORT=your_email_imap_port
 SMTP_TLS=use_tls_true_or_false
 SMTP_IGNORETLS=ignore_tls_true_or_false
+```
 
-### Run the application
+#### Run the application
 
 ```bash
 npm start
