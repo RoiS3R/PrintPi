@@ -60,9 +60,9 @@ Add additional notes about how to deploy this on a live system.
 
 ### Built With
 
-Node.js - The runtime server environment.
-Imap - An IMAP client library for Node.js.
-Mailparser - For parsing the emails.
+* Node.js - The runtime server environment.
+* Imap - An IMAP client library for Node.js.
+* Mailparser - For parsing the emails.
 
 ### License
 MIT License
