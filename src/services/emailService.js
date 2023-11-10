@@ -14,7 +14,13 @@ const imap = new Imap(imapConfig);
 
 // Function to open the IMAP inbox
 const openInbox = (cb) => {
-  imap.openBox('INBOX/Druck', true, cb);
+  imap.openBox('INBOX', true, (err, box) => {
+    if (err) {
+      console.error('Error opening inbox: ', err);
+      return;
+    }
+    cb(null, box);
+  });
 };
 
 // Function to check for new emails that match a specific search criteria
